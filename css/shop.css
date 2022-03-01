@@ -1,0 +1,78 @@
+.background-img {
+  background-image: url("../img/back.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  width: 100%;
+  height: 10%;
+  background-image: none;
+}
+
+.header-container.header-fixed {
+  transition: all 3s ease-in-out;
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+  opacity: 0.9;
+  z-index: 1;
+  top: 0;
+  /* position: absolute; */
+}
+
+.featured-section.shops {
+  overflow-x: hidden;
+  height: auto;
+  width: 100%;
+  /* margin: 1vw 2vw; padding: 50px 20px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 5vw;
+}
+.featured-products-container-shops {
+  padding: 0 80px;
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.featured-products-container-shops .featured-product-card {
+  padding: 30px 0;
+  height: 350px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  transition: all 1s ease;
+  opacity: 0.9;
+  margin-bottom: 80px;
+}
+.featured-products-container-shops .featured-product-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.9;
+  transition: 1s ease;
+}
+.pagination {
+  /* padding: 10px; */
+  margin: 50px 100px;
+}
+.pagination a {
+  color: black;
+  padding: 6px 12px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.pagination a.active {
+  background-color: rgb(224, 110, 69);
+  color: white;
+}
